@@ -3,28 +3,49 @@ import { useState } from "react";
 import proj1 from "../assets/images/proj9.png";
 import proj2 from "../assets/images/proj11.png";
 import proj3 from "../assets/images/proj12.png";
+<<<<<<< HEAD
+=======
+import { FaGithub } from "react-icons/fa";
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 
 const projects = [
   {
+<<<<<<< HEAD
     title: "Smart Digital Solutions",
     desc: "Contributed to the front-end development of Smart Digital Solutions, implementing responsive layouts, UX/UI designs, and ensuring cross-device compatibility to enhance visual appeal and user experience.",
     devstack: "React, Bootstrap",
     link: "https://smartdigitalsolutions.com.au/?fbclid=IwdGRjcAMyfvdjbGNrAzJ-4GV4dG4DYWVtAjExAAEeZSxQpbVO58CtiGgQsRRvblP1Ot255sdSQNRJHtfWdbFUWbiT-cYojzqoVOc_aem_Bz9Ji70zjrin5h-GXxZ9Pg",
+=======
+    title: "Iata.co",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    devstack: "React, Bootstrap",
+    link: "#",
+    git: "#",
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
     src: proj1,
     type: "frontend",
   },
   {
+<<<<<<< HEAD
     title: "PHP Travel Pages",
     desc: "Developed and customized multiple pages of the PHPTravels project, working on front-end design and back-end integration to enhance functionality and improve user experience.",
     devstack: "Boostrap",
     link: "https://phptravels.com/",
+=======
+    title: "Interactive E-Learning Platform",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    devstack: "NextJs",
+    link: "#",
+    git: "#",
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
     src: proj2,
     type: "frontend",
   },
   {
     title: "Portfolio Website",
+<<<<<<< HEAD
     desc: "Designed and developed my personal portfolio, Shahzar Ahmad | Frontend Developer, showcasing projects, skills, and interactive UI. Emphasis on clean responsive design and modern frontend best practices.",
     devstack: "React, Tailwind",
     link: "https://shahzarahmadlive.vercel.app/",
@@ -39,6 +60,15 @@ const projects = [
     src: proj1,
     type: "frontend",
   },
+=======
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    devstack: "React, Tailwind",
+    link: "#",
+    git: "#",
+    src: proj3,
+    type: "frontend",
+  },
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
 ];
 
 export const Portfolio = () => {
@@ -97,7 +127,11 @@ export const Portfolio = () => {
                         className="w-full md:w-1/2 h-64 object-cover rounded-lg"
                       />
                       <div className="flex-1">
+<<<<<<< HEAD
                         <p className="text-white/70 mb-4 mt-4">{project.desc}</p>
+=======
+                        <p className="text-white/70 mb-4">{project.desc}</p>
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                         <p className="text-emerald-300 font-medium mb-2">
                           Stack: {project.devstack}
                         </p>
@@ -115,7 +149,11 @@ export const Portfolio = () => {
                             href={project.git}
                             className="text-gray-400 hover:text-gray-300 transition-colors"
                           >
+<<<<<<< HEAD
                            
+=======
+                            <FaGithub />
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                           </a>
                         </div>
                       </div>

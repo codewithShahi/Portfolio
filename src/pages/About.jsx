@@ -22,8 +22,11 @@ export const About = () => {
               const skills = [<br />
               &nbsp;&nbsp;JavaScript,
               <br />
+<<<<<<< HEAD
               &nbsp;&nbsp;Next,
               <br />
+=======
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
               &nbsp;&nbsp;React,
               <br />
               &nbsp;&nbsp;Bootstrap,
@@ -63,7 +66,10 @@ export const About = () => {
             <div className="border border-white/20 rounded-lg p-3">
               <h4 className="text-emerald-300 font-medium mb-2">Frontend</h4>
               <ul className="text-white/50 space-y-1 text-sm">
+<<<<<<< HEAD
                 <li>Next Js</li>
+=======
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                 <li>React Js</li>
                 <li>Bootstrap</li>
                 <li>Tailwind CSS</li>
@@ -88,6 +94,7 @@ export const About = () => {
           <div className="space-y-4">
             <div>
               <label className="block text-sm font-medium mb-1">
+<<<<<<< HEAD
                 Tailwind CSS
               </label>
               <div className="w-full bg-white/10 rounded-full h-2">
@@ -98,12 +105,18 @@ export const About = () => {
               </div>
               <br />
               <label className="block text-sm font-medium mb-1">
+=======
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                 Bootstrap
               </label>
               <div className="w-full bg-white/10 rounded-full h-2">
                 <div
                   className="bg-emerald-300 h-2 rounded-full"
+<<<<<<< HEAD
                   style={{ width: "95%" }}
+=======
+                  style={{ width: "90%" }}
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                 ></div>
               </div>
             </div>
@@ -119,6 +132,7 @@ export const About = () => {
               </div>
             </div>
             <div>
+<<<<<<< HEAD
               <label className="block text-sm font-medium mb-1">Next JS</label>
               <div className="w-full bg-white/10 rounded-full h-2">
                 <div
@@ -127,11 +141,17 @@ export const About = () => {
                 ></div>
               </div>
               <br />
+=======
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
               <label className="block text-sm font-medium mb-1">React JS</label>
               <div className="w-full bg-white/10 rounded-full h-2">
                 <div
                   className="bg-emerald-300 h-2 rounded-full"
+<<<<<<< HEAD
                   style={{ width: "92%" }}
+=======
+                  style={{ width: "75%" }}
+>>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
                 ></div>
               </div>
             </div>
