@@ -95,10 +95,10 @@ export const Portfolio = () => {
                       <img
                         src={project.src}
                         alt={project.title}
-                        className="w-full md:w-1/2 h-64 object-cover rounded-lg"
+                        className="w-full md:w-1/2 h-64 mt-8 object-cover rounded-lg"
                       />
                       <div className="flex-1">
-                        <p className="text-white/70 mb-4">{project.desc}</p>
+                        <p className="text-white/70 mb-4 mt-8">{project.desc}</p>
                         <p className="text-emerald-300 font-medium mb-2">
                           Stack: {project.devstack}
                         </p>
