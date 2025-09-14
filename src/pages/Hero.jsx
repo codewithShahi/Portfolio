@@ -38,11 +38,11 @@ export const Hero = () => {
             </h1>
             <p className="text-xl text-white/80 max-w-lg mx-auto leading-relaxed mb-6">
               I am a frontend developer focusing on creating websites that
-              provides user with best experience...
+              provides user with best experience.
             </p>
 
             {/* <div className="flex gap-4 justify-center cursor-pointer">
-              <a href="#contact">
+              <a href="/contact">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   className="px-6 py-3 bg-emerald-500 rounded-full font-medium hover:bg-emerald-600 transition-colors"
