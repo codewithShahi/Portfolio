@@ -41,11 +41,7 @@ export const Footer = () => {
 
         <div className="relative z-10 text-center mt-8 py-12">
           <h1 className="hidden uppercase md:block text-[6rem] md:text-[8rem] lg:text-[11rem] font-bold text-white opacity-10">
-<<<<<<< HEAD
             Shahzar Ahmad
-=======
-            Shahzar
->>>>>>> e93312d357e2b2675d3f553f68a4a82641df82d1
           </h1>
 
           <h1 className="md:hidden uppercase relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10">
@@ -70,7 +66,7 @@ export const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/shahzar-ahmad-shahidev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              aria-label="GitHub"
+              aria-label="LinkedIn"
               className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
             >
               <IoLogoLinkedin size={30} />
