@@ -38,7 +38,7 @@ export const Hero = () => {
             </h1>
             <p className="text-xl text-white/80 max-w-lg mx-auto leading-relaxed mb-6">
               I am a frontend developer focusing on creating websites that
-              provides user with best experience.
+              provides user with best experience...
             </p>
 
             {/* <div className="flex gap-4 justify-center cursor-pointer">
