@@ -6,16 +6,40 @@ export const About = () => {
   return (
     <section id="about" className="text-white px-6 py-20 max-w-[1200px] mx-auto overflow-hidden">
 
-      {/* Section Heading - Responsive Font */}
+      {/* Section Heading - Premium Bento Theme */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="flex flex-col items-center mb-12 md:mb-20"
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="relative mb-16 md:mb-28 flex flex-col items-center justify-center"
       >
-        <h2 className="text-5xl md:text-7xl font-bold tracking-tighter italic text-center">
-          ABOUT <span className="text-emerald-300">ME</span>
-        </h2>
-        <div className="h-1 w-20 bg-emerald-300 mt-2 shadow-[0_0_15px_#6ee7b7]"></div>
+
+
+        {/* Main Heading Container */}
+        <div className="relative z-10 text-center">
+          {/* Small Tagline above heading */}
+          <motion.p
+            initial={{ opacity: 0, x: -10 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.4 }}
+            className="text-emerald-300 font-mono text-xs md:text-sm tracking-[0.5em] uppercase mb-4"
+          >
+            get to know
+          </motion.p>
+
+          <h3 className="text-5xl md:text-8xl font-bold tracking-tighter italic text-white flex flex-col md:flex-row items-center gap-0 md:gap-6">
+            <span className="opacity-40">ABOUT</span>
+            <span className="text-emerald-300 relative">
+              ME
+              {/* Decorative Glow Dot */}
+              <span className="absolute -top-2 -right-6 w-3 h-3 bg-emerald-400 rounded-full blur-[2px] hidden md:block animate-pulse"></span>
+            </span>
+          </h3>
+
+          {/* Modern Line with Multi-color Gradient */}
+
+        </div>
       </motion.div>
 
       {/* Bento Grid Layout 
