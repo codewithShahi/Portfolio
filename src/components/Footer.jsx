@@ -75,7 +75,7 @@ export const Footer = () => {
         <div className="mt-12 md:mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start text-center md:text-left order-2 md:order-1">
             <p className="text-white/60 text-[10px] font-mono tracking-widest uppercase">
-              &copy; 2026 Crafted by Shahzar
+              &copy; 2026 Crafted by Shahzar Ahmad
             </p>
             <p className="text-[9px] md:text-[10px] text-white/40 uppercase mt-2 tracking-tighter">
               Frontend Engineer • SQA Expert • CMS Specialist
