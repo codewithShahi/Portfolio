@@ -75,7 +75,7 @@ export const Portfolio = () => {
           className="mb-12 md:mb-16 text-center md:text-left" // Mobile par center, desktop par left
         >
           {/* Back-text "PORTFOLIO" */}
-          <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter italic opacity-20">
+          <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter italic opacity-40">
             PORTFOLIO
           </h2>
 
